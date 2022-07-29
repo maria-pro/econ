@@ -1,0 +1,13 @@
+---
+title: "Data exploration"
+author: "Maria"
+editor: visual
+execute: 
+  echo: false
+  warning: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    
+---
