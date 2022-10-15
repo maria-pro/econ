@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+  font-color: red
+}
+
+body{
+background-color: red;
+color: navy;
+
+}

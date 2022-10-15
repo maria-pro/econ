@@ -1,0 +1,49 @@
+---
+title: "Untitled"
+output: html_document
+date: "2022-10-14"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(gganimate)
+
+ggplot(mtcars, aes(factor(cyl), mpg)) + 
+  geom_boxplot() + 
+  # Here comes the gganimate code
+  transition_states(
+    gear,
+    transition_length = 2,
+    state_length = 1
+  )+
+  enter_fade() + 
+  exit_shrink() +
+  ease_aes('sine-in-out')
+```
+
+
+
+```{r}
+
+employ<-read_csv("employ.csv")
+
+var1<-employ%>%distinct(var)
+
+employ%>% filter(state=="base" & var%in%as_vector(var1[c(1:10),]))%>%
+  ggplot(aes(x=year, y=value,
+           colour=var))+
+  geom_point()+
+  transition_states(
+    year
+  )+
+  enter_fade() + 
+  exit_shrink() +
+  ease_aes('sine-in-out')
+```
+
+
