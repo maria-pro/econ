@@ -250,3 +250,54 @@ fig
 
 ```
 
+
+### 3 items
+
+```{r}
+
+var3<- "Grains production"
+  
+fig <- employ%>%
+  #filter(state=="zero"& var==input$var1)%>%
+  filter(var==var1 | var==var2 | var==var3
+         )%>%
+  #    filter(year>2022)%>%
+  filter(year>=2023)%>%
+  plot_ly(
+    x = ~year,
+    y = ~value,
+  #  size = ~pop,
+    color = ~var,
+  symbol = ~state, symbols = c('circle', 'x','triangle'),
+    frame = ~year,
+  text = ~paste("Occupation: ", var,
+                          "\nValue: $", value, " mln",
+                          "\nStatus: ", state,
+                          "\nYear: ", year),
+  hoverinfo = "text",
+  type = 'scatter',
+    mode = 'markers')
+
+
+
+fig <- fig %>% 
+  layout(hovermode = "x unified", 
+         showlegend = FALSE,
+         xaxis = list(
+    title = "Year",
+    dtick = 1, 
+
+      tickmode = "linear"
+  ),
+  yaxis = list(
+    title = "Value"
+  )
+  )
+
+fig<-fig %>%
+       animation_button(
+         x = 0, xanchor = "right", y = 0, yanchor = "bottom"
+       )
+fig
+```
+
