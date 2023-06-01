@@ -1,0 +1,177 @@
+var_code,var,year,sa4_code_2016,sa4_name_2016,base,zero,state2023,diff
+1 NearACTNSW,Region near ACT,2050,101,Capital Region,170.794,176.0717,115.7046,60.367099999999994
+2 CentCstNSW,Central Coast,2050,102,Central Coast,225.5894,219.904,153.5435,66.3605
+3 CentWestNSW,Central West,2050,103,Central West,163.3887,165.4921,108.7422,56.7499
+4 CoffGrftnNSW,Coffs harbour,2050,104,Coffs Harbour - Grafton,87.3981,100.046,55.9962,44.049800000000005
+5 FarWOranaNSW,Far West and Orana,2050,105,Far West and Orana,89.8868,92.8099,57.5398,35.2701
+6 HunterValNSW,Hunter valley (ex Newcastle),2050,106,Hunter Valley exc Newcastle,193.3291,164.0418,142.8814,21.16039999999998
+7 IllawarraNSW,Illawarra,2050,107,Illawarra,234.3022,229.2669,156.4621,72.8048
+8 MidNthCstNSW,Mid-north coast,2050,108,Mid North Coast,111.3824,116.6537,73.4239,43.2298
+9 MurrayNSW,Murray,2050,109,Murray,92.4604,94.3699,60.7457,33.6242
+10 NewEnglNWNSW,New England and North West,2050,110,New England and North West,129.9969,129.0238,87.2905,41.7333
+11 NwcstlLkMNSW,Newcastle and Lake Macquarie,2050,111,Newcastle and Lake Macquarie,275.7834,256.663,195.8533,60.80970000000002
+12 RichTweedNSW,Richmond-Tweed,2050,112,Richmond - Tweed,157.4536,164.2184,104.0552,60.1632
+13 RiverinaNSW,Riverina,2050,113,Riverina,134.5569,145.7564,88.5985,57.15790000000001
+14 SthHiShlhNSW,Southern Highlands,2050,114,Southern Highlands and Shoalhaven,87.2231,84.1103,58.9476,25.162699999999994
+15 BlhHilHwkNSW,Sydney - Baulkham hills,2050,115,Sydney - Baulkham Hills and Hawkesbury,213.9082,219.3846,139.164,80.22060000000002
+16 Blacktwn4NSW,Sydney - Blacktown,2050,116,Sydney - Blacktown,272.8112,276.0475,182.0399,94.00760000000002
+17 CityInSthNSW,Sydney - City and Inner South,2050,117,Sydney - City and Inner South,407.1575,415.3738,246.4975,168.87630000000001
+18 EastSubNtNSW,Sydney - Eastern Suburbs,2050,118,Sydney - Eastern Suburbs,290.9999,300.5035,183.5483,116.95519999999996
+19 InnrSWSydNSW,Sydney - Inner South West,2050,119,Sydney - Inner South West,447.2668,448.4581,290.5585,157.89960000000002
+20 InrWstSydNSW,Sydney - Inner West,2050,120,Sydney - Inner West,304.0239,310.4055,192.6536,117.7519
+21 NSydHrnsbNSW,Sydney - North Sydney and Hornsby,2050,121,Sydney - North Sydney and Hornsby,438.3585,453.9167,272.3362,181.58049999999997
+22 NBeachSydNSW,Sydney - Northern Beaches,2050,122,Sydney - Northern Beaches,247.7396,252.9096,152.0747,100.8349
+23 OtrSWSydNSW,Sydney - Outer South West,2050,123,Sydney - Outer South West,213.7739,214.5962,143.795,70.80120000000002
+24 OtWSyBluMNSW,Sydney - Outer West,2050,124,Sydney - Outer West and Blue Mountains,253.0334,254.9816,172.2049,82.77669999999998
+25 ParramattNSW,Sydney - Parramatta,2050,125,Sydney - Parramatta,343.2704,345.499,221.4571,124.04190000000003
+26 RydeNSW,Sydney - Ryde,2050,126,Sydney - Ryde,173.5105,177.2911,110.5738,66.7173
+27 SWSydNSW,Sydney - South West,2050,127,Sydney - South West,269.5437,273.1245,175.9664,97.15810000000002
+28 SutherlndNSW,Sydney - Sutherland,2050,128,Sydney - Sutherland,203.9107,203.4832,137.9718,65.51140000000001
+29 Ballarat4Vic,Ballarat,2050,201,Ballarat,135.5743,143.0363,87.9084,55.12790000000001
+30 Bendigo4Vic,Bendigo,2050,202,Bendigo,117.3732,118.6165,76.6947,41.921800000000005
+31 Geelong4Vic,Geelong,2050,203,Geelong,228.0264,227.5858,151.4618,76.124
+32 HumeVic,Hume,2050,204,Hume,136.5657,149.4046,87.5656,61.838999999999984
+33 LatGiplndVic,Latrobe - Gippsland,2050,205,Latrobe - Gippsland,194.2002,184.4077,133.433,50.97470000000001
+34 MlbInnerVic,Melbourne - Inner,2050,206,Melbourne - Inner,741.1586,759.3783,447.1767,312.2016
+35 MlbInnerEVic,Melbourne - Inner East,2050,207,Melbourne - Inner East,344.646,351.3417,211.7814,139.5603
+36 MlbInnerSVic,Melbourne - Inner South,2050,208,Melbourne - Inner South,395.6395,401.6101,245.4029,156.2072
+37 MlbNEVic,Melbourne - North East,2050,209,Melbourne - North East,427.8818,427.9668,279.0281,148.93869999999998
+38 MlbNWstVic,Melbourne - North West,2050,210,Melbourne - North West,288.6385,286.0538,190.6266,95.42720000000003
+39 MlbOuterEVic,Melbourne - Outer East,2050,211,Melbourne - Outer East,443.0762,442.3571,280.6087,161.7484
+40 MlbSEVic,Melbourne - South East,2050,212,Melbourne - South East,601.91010000000006,604.0127,377.7262,226.2865
+41 MlbWestVic,Melbourne - West,2050,213,Melbourne - West,611.9714,604.0957,397.9153,206.18039999999996
+42 MrngtnPenVic,Mornington Peninsula,2050,214,Mornington Peninsula,221.3617,224.9102,141.3935,83.51670000000001
+43 NorthWestVic,North West,2050,215,North West,109.4437,115.2542,70.6389,44.61529999999999
+44 Sheppart4Vic,Shepparton,2050,216,Shepparton,94.1129,96.377,61.1105,35.26649999999999
+45 WarrnmSWVic,Warrnambool and South West,2050,217,Warrnambool and South West,114.3572,122.0492,73.2803,48.7689
+46 BrisEastQld,Brisbane - East,2050,301,Brisbane - East,188.1928,177.8879,131.1453,46.74260000000001
+47 BrisNorthQld,Brisbane - North,2050,302,Brisbane - North,188.1227,182.8394,131.6884,51.15100000000001
+48 BrisSouthQld,Brisbane - South,2050,303,Brisbane - South,303.5954,297.0382,207.9244,89.11380000000003
+49 BrisWestQld,Brisbane - West,2050,304,Brisbane - West,166.8185,165.3462,115.5596,49.78660000000001
+50 BrisInnerQld,Brisbane - Inner,2050,305,Brisbane Inner City,279.4077,273.9062,184.8654,89.04080000000002
+51 CairnsQld,Cairns,2050,306,Cairns,170.402,168.0004,117.4874,50.51300000000002
+52 DDownsMnaQld,Darling Downs - Maranoa,2050,307,Darling Downs - Maranoa,77.6647,71.9683,55.1336,16.834699999999998
+53 FitzroyQld,Central Queensland,2050,308,Central Queensland,194.1797,164.4639,135.9006,28.563299999999998
+54 GoldCoastQld,Gold Coast,2050,309,Gold Coast,432.2753,418.7069,288.5312,130.1757
+55 IpswichQld,Ipswich,2050,310,Ipswich,230.9111,223.2781,161.3467,61.9314
+56 LgnBeaudsQld,Logan - Beaudesert,2050,311,Logan - Beaudesert,227.2163,219.4706,157.3686,62.102000000000004
+57 Mackay4Qld,Mackay - Isaac - Whitsunday,2050,312,Mackay - Isaac - Whitsunday,142.3738,119.4021,108.1079,11.294200000000004
+58 MrtonBayNQld,Moreton Bay - North,2050,313,Moreton Bay - North,147.6234,144.948,101.7896,43.158400000000015
+59 MrtonBaySQld,Moreton Bay - South,2050,314,Moreton Bay - South,167.8991,164.0992,116.72,47.3792
+60 OutbackQld,Queensland - Outback,2050,315,Queensland - Outback,66.0876,63.476,41.5958,21.880200000000002
+61 SunshnCstQld,Sunshine Coast,2050,316,Sunshine Coast,221.8156,213.7668,150.2462,63.5206
+62 Toowoomb4Qld,Toowoomba,2050,317,Toowoomba,97.2562,93.0169,69.8324,23.1845
+63 TwnsvilleQld,Townsville,2050,318,Townsville,185.2286,187.9155,127.2093,60.70620000000001
+64 WideBayQld,Wide Bay,2050,319,Wide Bay,141.3488,145.0258,97.452,47.573800000000006
+65 AdelHilCntSA,Adelaide - Central and Hills,2050,401,Adelaide - Central and Hills,236.727,242.4195,162.1467,80.27279999999999
+66 AdelaideNSA,Adelaide - North,2050,402,Adelaide - North,307.7556,303.6751,212.0803,91.59479999999999
+67 AdelaideSSA,Adelaide - South,2050,403,Adelaide - South,265.2999,264.7417,184.5575,80.18419999999998
+68 AdelaideWSA,Adelaide - West,2050,404,Adelaide - West,187.6963,179.8989,132.0319,47.86699999999999
+69 BaroYkPnMNSA,Barossa - Yorke - Mid North,2050,405,Barossa - Yorke - Mid North,75.2286,85.4813,48.1609,37.32040000000001
+70 Outback4SA,South Australia - Outback,2050,406,South Australia - Outback,57.5616,62.0613,36.646,25.415300000000002
+71 SouthEastSE,South Australia - South East,2050,407,South Australia - South East,131.3601,152.8528,83.3165,69.5363
+72 Bunbury4WA,Bunbury,2050,501,Bunbury,143.2964,135.1338,97.3042,37.82960000000001
+73 MandurahWA,Mandurah,2050,502,Mandurah,84.1974,80.6737,51.2201,29.453599999999994
+74 PerthInrWA,Perth - Inner,2050,503,Perth - Inner,150.3972,149.77,102.488,47.28200000000001
+75 PerthNEWA,Perth - North East,2050,504,Perth - North East,207.3167,205.3204,139.2356,66.0848
+76 PerthNWWA,Perth - North West,2050,505,Perth - North West,413.4652,407.8799,277.8562,130.02370000000002
+77 PerthSEWA,Perth - South East,2050,506,Perth - South East,414.361,409.163,278.5102,130.6528
+78 PerthSWWA,Perth - South West,2050,507,Perth - South West,358.7604,348.4403,243.8989,104.54139999999998
+79 WheatBeltWA,Western Australia - Wheat belt,2050,509,Western Australia - Wheat Belt,95.863,99.9538,67.8782,32.075599999999994
+80 OutbackNthWA,Western Australia - Outback (North),2050,510,Western Australia - Outback (North),138.323,137.64940000000001,90.5519,47.09750000000001
+81 OutbackSthWA,Western Australia - Outback (South),2050,511,Western Australia - Outback (South),130.1908,129.9432,86.3954,43.547799999999995
+82 HobartTas,Hobart,2050,601,Hobart,137.8284,136.1946,97.5998,38.594800000000006
+83 LncstnNETas,Launceston and North East,2050,602,Launceston and North East,96.2571,103.0141,65.9522,37.061899999999994
+84 SouthEastTas,South East,2050,603,South East,35.5479,39.9296,22.4175,17.5121
+85 WstNWTas,West and North West,2050,604,West and North West,89.9107,95.5034,61.8781,33.625299999999996
+86 DarwinNT,Darwin,2050,701,Darwin,171.66,171.1194,139.9818,31.13760000000002
+87 OutbackNT,Northern Territory - Outback,2050,702,Northern Territory - Outback,51.7109,50.9064,41.277,9.629399999999997
+88 ACT,ACT,2050,801,Australian Capital Territory,351.543,350.8311,257.7195,93.11160000000001
+1 NearACTNSW,Region near ACT,2030,101,Capital Region,129.3679,131.0246,115.7046,15.319999999999993
+2 CentCstNSW,Central Coast,2030,102,Central Coast,173.2851,170.8047,153.5435,17.261200000000002
+3 CentWestNSW,Central West,2030,103,Central West,123.7893,121.9658,108.7422,13.223600000000005
+4 CoffGrftnNSW,Coffs harbour,2030,104,Coffs Harbour - Grafton,64.148,66.5389,55.9962,10.542699999999996
+5 FarWOranaNSW,Far West and Orana,2030,105,Far West and Orana,65.8024,67.3494,57.5398,9.809600000000003
+6 HunterValNSW,Hunter valley (ex Newcastle),2030,106,Hunter Valley exc Newcastle,160.4663,146.2102,142.8814,3.3287999999999727
+7 IllawarraNSW,Illawarra,2030,107,Illawarra,178.0393,178.0668,156.4621,21.60470000000001
+8 MidNthCstNSW,Mid-north coast,2030,108,Mid North Coast,83.7472,85.4714,73.4239,12.0475
+9 MurrayNSW,Murray,2030,109,Murray,69.0917,69.3882,60.7457,8.642499999999998
+10 NewEnglNWNSW,New England and North West,2030,110,New England and North West,98.9763,98.4988,87.2905,11.208300000000008
+11 NwcstlLkMNSW,Newcastle and Lake Macquarie,2030,111,Newcastle and Lake Macquarie,217.639,209.8354,195.8533,13.982100000000003
+12 RichTweedNSW,Richmond-Tweed,2030,112,Richmond - Tweed,117.784,118.9437,104.0552,14.888500000000008
+13 RiverinaNSW,Riverina,2030,113,Riverina,100.5273,102.4055,88.5985,13.807000000000002
+14 SthHiShlhNSW,Southern Highlands,2030,114,Southern Highlands and Shoalhaven,66.7467,64.4995,58.9476,5.551899999999996
+15 BlhHilHwkNSW,Sydney - Baulkham hills,2030,115,Sydney - Baulkham Hills and Hawkesbury,160.4962,163.451,139.164,24.287000000000006
+16 Blacktwn4NSW,Sydney - Blacktown,2030,116,Sydney - Blacktown,205.2625,207.2035,182.0399,25.163600000000002
+17 CityInSthNSW,Sydney - City and Inner South,2030,117,Sydney - City and Inner South,286.0793,286.4,246.4975,39.902499999999975
+18 EastSubNtNSW,Sydney - Eastern Suburbs,2030,118,Sydney - Eastern Suburbs,211.4492,213.7977,183.5483,30.24939999999998
+19 InnrSWSydNSW,Sydney - Inner South West,2030,119,Sydney - Inner South West,330.6954,330.1699,290.5585,39.6114
+20 InrWstSydNSW,Sydney - Inner West,2030,120,Sydney - Inner West,221.3882,223.6169,192.6536,30.963299999999975
+21 NSydHrnsbNSW,Sydney - North Sydney and Hornsby,2030,121,Sydney - North Sydney and Hornsby,315.6658,319.8798,272.3362,47.54359999999997
+22 NBeachSydNSW,Sydney - Northern Beaches,2030,122,Sydney - Northern Beaches,178.8913,180.9177,152.0747,28.84299999999999
+23 OtrSWSydNSW,Sydney - Outer South West,2030,123,Sydney - Outer South West,162.4969,163.3255,143.795,19.530500000000018
+24 OtWSyBluMNSW,Sydney - Outer West,2030,124,Sydney - Outer West and Blue Mountains,194.0781,196.5536,172.2049,24.34869999999998
+25 ParramattNSW,Sydney - Parramatta,2030,125,Sydney - Parramatta,253.835,256.2249,221.4571,34.767799999999994
+26 RydeNSW,Sydney - Ryde,2030,126,Sydney - Ryde,127.1663,128.8941,110.5738,18.320300000000003
+27 SWSydNSW,Sydney - South West,2030,127,Sydney - South West,201.0151,202.7633,175.9664,26.796899999999994
+28 SutherlndNSW,Sydney - Sutherland,2030,128,Sydney - Sutherland,155.46,156.3023,137.9718,18.3305
+29 Ballarat4Vic,Ballarat,2030,201,Ballarat,100.1938,103.8411,87.9084,15.932699999999997
+30 Bendigo4Vic,Bendigo,2030,202,Bendigo,86.9243,88.0862,76.6947,11.391500000000008
+31 Geelong4Vic,Geelong,2030,203,Geelong,171.2395,173.4132,151.4618,21.95139999999998
+32 HumeVic,Hume,2030,204,Hume,100.2597,103.349,87.5656,15.7834
+33 LatGiplndVic,Latrobe - Gippsland,2030,205,Latrobe - Gippsland,150.109,139.7262,133.433,6.293200000000013
+34 MlbInnerVic,Melbourne - Inner,2030,206,Melbourne - Inner,521.7795,525.9329,447.1767,78.75620000000004
+35 MlbInnerEVic,Melbourne - Inner East,2030,207,Melbourne - Inner East,246.1182,249.1094,211.7814,37.328
+36 MlbInnerSVic,Melbourne - Inner South,2030,208,Melbourne - Inner South,285.5674,288.6485,245.4029,43.245600000000024
+37 MlbNEVic,Melbourne - North East,2030,209,Melbourne - North East,318.4579,320.724,279.0281,41.695899999999995
+38 MlbNWstVic,Melbourne - North West,2030,210,Melbourne - North West,216.2237,215.2662,190.6266,24.6396
+39 MlbOuterEVic,Melbourne - Outer East,2030,211,Melbourne - Outer East,325.9071,328.431,280.6087,47.822299999999984
+40 MlbSEVic,Melbourne - South East,2030,212,Melbourne - South East,437.3944,440.0002,377.7262,62.274
+41 MlbWestVic,Melbourne - West,2030,213,Melbourne - West,452.3431,447.9966,397.9153,50.0813
+42 MrngtnPenVic,Mornington Peninsula,2030,214,Mornington Peninsula,164.2005,169.6138,141.3935,28.22030000000001
+43 NorthWestVic,North West,2030,215,North West,80.5894,83.0778,70.6389,12.43889999999999
+44 Sheppart4Vic,Shepparton,2030,216,Shepparton,69.7464,70.6974,61.1105,9.5869
+45 WarrnmSWVic,Warrnambool and South West,2030,217,Warrnambool and South West,83.9979,85.7699,73.2803,12.48960000000001
+46 BrisEastQld,Brisbane - East,2030,301,Brisbane - East,146.5303,144.2158,131.1453,13.07050000000001
+47 BrisNorthQld,Brisbane - North,2030,302,Brisbane - North,145.1906,144.1678,131.6884,12.479399999999998
+48 BrisSouthQld,Brisbane - South,2030,303,Brisbane - South,231.21,230.112,207.9244,22.187600000000003
+49 BrisWestQld,Brisbane - West,2030,304,Brisbane - West,128.2053,128.4914,115.5596,12.931799999999996
+50 BrisInnerQld,Brisbane - Inner,2030,305,Brisbane Inner City,208.3705,206.5819,184.8654,21.716499999999996
+51 CairnsQld,Cairns,2030,306,Cairns,130.0163,129.0953,117.4874,11.607900000000015
+52 DDownsMnaQld,Darling Downs - Maranoa,2030,307,Darling Downs - Maranoa,61.3697,57.9014,55.1336,2.767800000000001
+53 FitzroyQld,Central Queensland,2030,308,Central Queensland,151.7824,138.805,135.9006,2.9044000000000096
+54 GoldCoastQld,Gold Coast,2030,309,Gold Coast,328.5973,325.8986,288.5312,37.367399999999975
+55 IpswichQld,Ipswich,2030,310,Ipswich,178.9471,177.6183,161.3467,16.271600000000007
+56 LgnBeaudsQld,Logan - Beaudesert,2030,311,Logan - Beaudesert,176.8042,175.7794,157.3686,18.410800000000023
+57 Mackay4Qld,Mackay - Isaac - Whitsunday,2030,312,Mackay - Isaac - Whitsunday,120.804,112.8004,108.1079,4.6924999999999955
+58 MrtonBayNQld,Moreton Bay - North,2030,313,Moreton Bay - North,114.2667,113.9067,101.7896,12.117100000000008
+59 MrtonBaySQld,Moreton Bay - South,2030,314,Moreton Bay - South,129.7858,129.7786,116.72,13.058600000000013
+60 OutbackQld,Queensland - Outback,2030,315,Queensland - Outback,47.4593,45.8438,41.5958,4.248000000000005
+61 SunshnCstQld,Sunshine Coast,2030,316,Sunshine Coast,170.8448,169.5077,150.2462,19.261500000000012
+62 Toowoomb4Qld,Toowoomba,2030,317,Toowoomba,76.9612,76.1251,69.8324,6.292699999999996
+63 TwnsvilleQld,Townsville,2030,318,Townsville,140.832,145.0095,127.2093,17.800200000000004
+64 WideBayQld,Wide Bay,2030,319,Wide Bay,109.1302,107.4246,97.452,9.9726
+65 AdelHilCntSA,Adelaide - Central and Hills,2030,401,Adelaide - Central and Hills,179.4718,183.0962,162.1467,20.9495
+66 AdelaideNSA,Adelaide - North,2030,402,Adelaide - North,234.3655,232.6243,212.0803,20.54400000000001
+67 AdelaideSSA,Adelaide - South,2030,403,Adelaide - South,203.2764,204.4683,184.5575,19.910799999999995
+68 AdelaideWSA,Adelaide - West,2030,404,Adelaide - West,144.8622,140.2151,132.0319,8.1832
+69 BaroYkPnMNSA,Barossa - Yorke - Mid North,2030,405,Barossa - Yorke - Mid North,54.8418,60.4918,48.1609,12.3309
+70 Outback4SA,South Australia - Outback,2030,406,South Australia - Outback,41.6582,44.2477,36.646,7.601700000000001
+71 SouthEastSE,South Australia - South East,2030,407,South Australia - South East,95.4525,102.5384,83.3165,19.22189999999999
+72 Bunbury4WA,Bunbury,2030,501,Bunbury,109.4346,103.7024,97.3042,6.398200000000003
+73 MandurahWA,Mandurah,2030,502,Mandurah,59.2759,57.7467,51.2201,6.526599999999995
+74 PerthInrWA,Perth - Inner,2030,503,Perth - Inner,113.3724,112.1171,102.488,9.629099999999994
+75 PerthNEWA,Perth - North East,2030,504,Perth - North East,155.391,153.81,139.2356,14.574399999999997
+76 PerthNWWA,Perth - North West,2030,505,Perth - North West,310.6486,307.7671,277.8562,29.910900000000026
+77 PerthSEWA,Perth - South East,2030,506,Perth - South East,311.2448,308.2851,278.5102,29.774900000000002
+78 PerthSWWA,Perth - South West,2030,507,Perth - South West,271.1779,267.0177,243.8989,23.118799999999993
+79 WheatBeltWA,Western Australia - Wheat belt,2030,509,Western Australia - Wheat Belt,75.3728,78.6555,67.8782,10.777299999999997
+80 OutbackNthWA,Western Australia - Outback (North),2030,510,Western Australia - Outback (North),100.8841,98.2911,90.5519,7.739199999999997
+81 OutbackSthWA,Western Australia - Outback (South),2030,511,Western Australia - Outback (South),97.1,98.2978,86.3954,11.9024
+82 HobartTas,Hobart,2030,601,Hobart,106.1461,107.079,97.5998,9.479199999999992
+83 LncstnNETas,Launceston and North East,2030,602,Launceston and North East,73.2707,74.3193,65.9522,8.367099999999994
+84 SouthEastTas,South East,2030,603,South East,25.7703,26.5977,22.4175,4.180199999999999
+85 WstNWTas,West and North West,2030,604,West and North West,68.7245,69.98,61.8781,8.1019
+86 DarwinNT,Darwin,2030,701,Darwin,143.5966,143.8646,139.9818,3.882800000000003
+87 OutbackNT,Northern Territory - Outback,2030,702,Northern Territory - Outback,42.6013,42.7597,41.277,1.4827000000000012
+88 ACT,ACT,2030,801,Australian Capital Territory,271.8957,272.3914,257.7195,14.671899999999994
