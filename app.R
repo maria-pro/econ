@@ -62,8 +62,7 @@ filter(year<2051)%>%
 employ_state<-read_csv("data/sa4_transform_new3.csv", show_col_types = FALSE)%>%
   mutate(
     sa4_code_2016 = as.character(sa4_code_2016)
-    )
-#%>%filter(year==2030 | year==2050)#%>%
+    )%>%filter(year==2030 | year==2050)#%>%
   #  pivot_wider(names_from=state, values_from=value)
 
 
@@ -700,9 +699,9 @@ employ_state %>%
     employ_state %>%
       filter(year==parse_number(input$year_map)) %>%
       left_join(absmapsdata::sa42016)%>%
-      mutate(
-        value=round(value, 1)
-      )%>%
+    #  mutate(
+    #    base=round(value, 1)
+    #  )%>%
       st_as_sf(sf_column_name="geometry")
 
   })
