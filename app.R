@@ -60,8 +60,7 @@ filter(year<2051)%>%
 #  pivot_wider(names_from=state, values_from=value)
 
 #tab 4 Region #Explore the impact on 85 regions across Australia. = sa4
-employ_state<-read_csv("data/sa4_transform_new3.csv",col_types=cols(sa4_code_2016 = col_character()))#%>%filter(year==2030 | year==2050)#%>%
-  #  pivot_wider(names_from=state, values_from=value)
+employ_state<-sf::st_read("data/sa4_transform_new3.shp")
 
 
 #-----------------
@@ -633,13 +632,7 @@ server <- function(input, output, session) {
   map_df_state= reactive({
     #change to state
 employ_state %>%
-    filter(year==parse_number(input$year_map)) %>%
-      left_join(absmapsdata::sa42016)%>%
-      mutate(
-        base=round(base, 1),
-        zero=round(zero, 1),
-      )%>%
-      st_as_sf(sf_column_name="geometry")
+    filter(year==parse_number(input$year_map))
 
   })
 
@@ -677,7 +670,7 @@ employ_state %>%
                     "<b> Total employment (‘000s)</b> <br/>",
                     "Business as usual:", base, "<br/>",
                     "Net zero:", zero,"<br/>",
-                    "Current employment:", state2023))%>%
+                    "Current employment:", stt2023))%>%
       setView(133.88032299669788, -23.6981557160157, zoom = 3.5)%>%
       addLegend("topright",
            pal = qpal,
@@ -693,46 +686,7 @@ employ_state %>%
   #_______________________
   #tab4
   #state
-  map_df = reactive({
-    employ_state %>%
-      filter(year==parse_number(input$year_map)) %>%
-      left_join(absmapsdata::sa42016)%>%
-      mutate(
-        value=round(value, 1)
-      )%>%
-      st_as_sf(sf_column_name="geometry")
 
-  })
-
-
-  output$map <- renderLeaflet({
-    leaflet() %>%
-      #     addProviderTiles("CartoDB.Positron") %>%
-      addTiles() %>%
-      addPolygons(data=map_df(),
-                  fillColor = "grey70",
-                  weight = 2,
-                  opacity = 1,
-                  color = "white",
-                  dashArray = "3",
-                  fillOpacity = 0.7,
-                  highlightOptions = highlightOptions(
-                    weight = 5,
-                    color = "#666",
-                    dashArray = "",
-                    fillOpacity = 0.7,
-                    bringToFront = TRUE),
-
-                  popup = ~ paste(
-                    "Year:", year, "<br/>",
-                    "Region:", sa4_name_2016, "<br/>",
-                    "Business as usual:", base, "<br/>",
-                    "Net zero:", zero
-                    )
-                  )%>%
-      setView(133.88032299669788, -23.6981557160157, zoom = 3.5)
-
-  })
 
 
   #----------
