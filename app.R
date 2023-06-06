@@ -29,6 +29,7 @@ library(leaflet)
 source('helpers.R')
 
 my_theme <- bs_theme(
+  version=5,
   bootswatch = "cerulean",
   base_font = font_google("Roboto")
                      )%>%
