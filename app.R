@@ -40,14 +40,14 @@ thematic_shiny(font = "auto")
 #---------
 #load data
 
-employ<-read_csv("data/employ_new.csv") %>%
+employ<-read_csv("data/employ_new.csv",show_col_types = FALSE) %>%
   filter(year<2051)%>%
   mutate(
     value=round(value, 1)
   )
 
 #tab 2 - occupation - australia
-occupation<-read_csv("data/occupation_new.csv")%>%
+occupation<-read_csv("data/occupation_new.csv",show_col_types = FALSE)%>%
 filter(year<2051)%>%
   mutate(
     value=round(value, 1)
@@ -59,7 +59,11 @@ filter(year<2051)%>%
 #  pivot_wider(names_from=state, values_from=value)
 
 #tab 4 Region #Explore the impact on 85 regions across Australia. = sa4
-employ_state<-read_csv("data/sa4_transform_new3.csv",col_types=cols(sa4_code_2016 = col_character()))#%>%filter(year==2030 | year==2050)#%>%
+employ_state<-read_csv("data/sa4_transform_new3.csv", show_col_types = FALSE)%>%
+  mutate(
+    sa4_code_2016 = as.character(sa4_code_2016)
+    )
+#%>%filter(year==2030 | year==2050)#%>%
   #  pivot_wider(names_from=state, values_from=value)
 
 
